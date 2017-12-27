@@ -1,0 +1,89 @@
+
+html,
+body{
+    height: 100%;
+    background-color: #f4fcff;
+    font-size: .24rem;
+}
+section{
+    padding:0 .4rem .5rem .4rem;
+    overflow: hidden;
+}
+.sec_box{
+    margin-top: 1.3rem;
+    background-color: white;
+
+    padding: 2rem .3rem .5rem .3rem;
+    border-radius: .2rem;
+}
+
+/*使用者图片及名字*/
+.hea_img_box{
+    top:-.7rem;
+    left: 50%;
+    margin-left: -.7rem;
+    z-index: 1;
+}
+.hea_img_box img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    border: 0.07rem solid white;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+.hea_img_box .hea_name{
+    color: #999;
+    font-size: 0.28rem;
+}
+
+
+/*输入行*/
+.sec_box .li_list{
+    border-bottom: 0.02rem solid rgba(0, 0, 0, 0.1);
+    padding: .1rem 0;
+    margin-bottom: .4rem;
+    font-size: .22rem;
+    color: #999;
+}
+
+.sec_box .li_list .li_right{
+    padding-right: .38rem;
+    background: url("../img/right_icon.png") no-repeat right center;
+    background-size: .16rem .24rem;
+
+}
+.sec_box .li_list .li_right input{
+    height: .3rem;
+    font-size: .24rem;
+    color: #666;
+    width: 100%;
+    text-align: right;
+}
+.no_back{
+    background: none !important;
+}
+.sec_box .ok_tbn{
+    width: 3.14rem;
+    height: .8rem;
+    background-color: #0aa3ff;
+    font-size: .32rem;
+    color: white;
+    line-height: .8rem;
+    text-align: center;
+    font-weight: lighter;
+
+    margin: .35rem auto .20rem auto;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    border-radius: .4rem;
+    box-shadow:0 0.06rem 0.7rem -0.06rem rgba(10,163,255,.8);
+    -moz-box-shadow:0 0.06rem 0.7rem -0.06rem rgba(10,163,255,.8);/*firefox*/
+    -webkit-box-shadow:0 0.06rem 0.7rem -0.06rem rgba(10,163,255,.8);/*webkit*/
+}
+.box_sh{
+    box-shadow:0 0.06rem 0.9rem -0.02rem rgba(10,163,255,.4);
+    -moz-box-shadow:0 0.06rem 0.9rem -0.02rem rgba(10,163,255,.4);/*firefox*/
+    -webkit-box-shadow:0 0.06rem 0.9rem -0.07rem rgba(10,163,255,.3);/*webkit*/
+}
