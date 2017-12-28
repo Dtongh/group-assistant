@@ -58,10 +58,11 @@ header .header_box .hea_money_box .bor_right{
     color: white;
 }
 header .header_box .hea_money_box .money_numb{
-    font-size: 0.48rem;
+    font-size: 0.52rem;
     width: 100%;
     color: rgba(255,255,255,.9);
-    text-shadow: 0 5px 7px rgba(0,0,0,.2);
+    text-shadow: 0 5px 7px rgba(0,68,131,.5);
+    font-weight: bold;
 }
 header .header_box .hea_money_box .money_text{
     font-size: 0.24rem;
@@ -75,7 +76,6 @@ header .header_box .know_more_box {
     padding-left: 0.35rem;
     background: url("../img/d_w.png") no-repeat left center;
     background-size: 0.3rem 0.3rem;
-    font-weight: lighter;
 }
 header .add_box{
     width: 100%;
@@ -130,6 +130,7 @@ section{
 .sec_header .my_group span{
     font-size: .24rem;
     color: #666;
+    font-weight: bold;
 }
 .sec_table {
     width: 100%;
@@ -148,7 +149,7 @@ section{
     border-spacing:0px .2rem;
 }
 .sec_table .tableBox tr{
-    border-bottom: 0.01rem dashed rgba(0, 0, 0, 0.1);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
 .sec_table .tableBox tr th{
     /*outline: 1px solid royalblue;*/
@@ -156,7 +157,6 @@ section{
     text-align: left;
     font-size: .22rem;
     color: #999;
-    font-weight: lighter;
     text-align: center;
 }
 .sec_table .tableBox tr td{
@@ -167,6 +167,7 @@ section{
     text-overflow:ellipsis;
     -o-text-overflow:ellipsis;
     overflow:hidden;
+    font-weight: bold;
 }
 .sec_table .add_more{
     width: 100%;
@@ -187,11 +188,11 @@ section{
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.85);
     display: none;
 }
 .mask .wel_box{
-    width: 6.36rem;
+    width: 6.58rem;
     height: 8.44rem;
     background: url("../img/wel_back.png") no-repeat;
     background-size: 100% 100%;
@@ -199,7 +200,7 @@ section{
     top: 50%;
     left: 50%;
     margin-top: -4.22rem;
-    margin-left: -3.18rem;
+    margin-left: -3.29rem;
     z-index: 2;
 }
 
@@ -219,18 +220,24 @@ section{
     height: .76rem;
     bottom: 1.3rem;
     left: 50%;
-    margin-left: -1.35rem;
+    margin-left: -1.56rem;
     background: url("../img/mask_btn.png") no-repeat;
     background-size: 100% 100%;
-
     line-height: .76rem;
     text-align: center;
     border-radius: .38rem;
-    box-shadow: 0 0.06rem 0.9rem -0.02rem #ffd800;
-    -moz-box-shadow:0 0.06rem 0.9rem -0.02rem #ffd800;/*firefox*/
-    -webkit-box-shadow:0 0.06rem 0.9rem -0.02rem #ffd800;/*webkit*/
+    box-shadow: 0 0.2rem 0.4rem -0.1rem #b28400;
+    -moz-box-shadow:0 0.2rem 0.4rem -0.1rem #b28400;/*firefox*/
+    -webkit-box-shadow:0 0.2rem 0.4rem -0.1rem #b28400;/*webkit*/
 }
 .mask .wel_box .mask_btn a{
     font-size: .28rem;
     color: #ce4e00;
+    font-weight: bold;
+}
+
+.box_sh{
+    box-shadow:0 0.06rem 0.9rem -0.07rem rgba(0,86,168,.7);
+    -moz-box-shadow:0 0.06rem 0.9rem -0.07rem rgba(0,86,168,.7);/*firefox*/
+    -webkit-box-shadow:0 0.06rem 0.9rem -0.07rem rgba(0,86,168,.7);/*webkit*/
 }

@@ -1,0 +1,113 @@
+
+html,
+body{
+    height: 100%;
+    background-color: #f4fcff;
+    font-size: .24rem;
+}
+section{
+    padding:0 .4rem 1rem .4rem;
+    overflow: hidden;
+}
+.sec_box{
+    margin-top: 1.3rem;
+    background-color: #09a5ff;
+
+    padding: 1rem .3rem .6rem .3rem;
+    border-radius: .2rem;
+}
+
+/*使用者图片及名字*/
+.hea_img_box{
+    top:-.7rem;
+    left: 50%;
+    margin-left: -.7rem;
+    z-index: 1;
+}
+.hea_img_box img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    border: 0.07rem solid white;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+
+.sec_box .just_text{
+    width: 5.06rem;
+    height: .6rem;
+    margin-bottom: .3rem;
+}
+.sec_box .ewm{
+    width: 2.66rem;
+    height: 2.66rem;
+    margin-bottom: .5rem;
+}
+
+.sec_box .tishi_box{
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: .3rem;
+}
+
+.sec_box .tishi_box .tishi_icon{
+    width: .32rem;
+    height: .32rem;
+    margin-right: .2rem;
+}
+.sec_box .tishi_box .tishi_right{
+    margin-top: -.05rem;
+}
+.sec_box .tishi_box .tishi_right p{
+   width: 100%;
+    /*display: inline-block;*/
+    word-break: break-all;
+    margin-bottom: .2rem;
+    color: white;
+    font-size: .24rem;
+    line-height: .4rem;
+    box-sizing: border-box;
+    padding-left: .35rem;
+}
+.sec_box .tishi_box .tishi_right .ts_first{
+    background: url("../img/first.png") no-repeat left top;
+    background-size: .24rem .24rem;
+    background-position-y: .07rem;
+ }
+.sec_box .tishi_box .tishi_right .ts_next{
+    background: url("../img/next.png") no-repeat left top;
+    background-size: .24rem .24rem;
+    background-position-y: .07rem;
+}
+
+.sec_box .ok_tbn{
+    width: 3.12rem;
+    height: .76rem;
+    background: url("../img/ok_btn.png") no-repeat;
+    background-size: 100% 100%;
+    line-height: .76rem;
+    text-align: center;
+    color: #ce4e00;
+    font-size: .32rem;
+    font-weight: bold;
+    border-radius: .38rem;
+}
+.sec_box .ok_tbn a{
+    color: #ce4e00;
+    font-size: .32rem;
+    font-weight: bold;
+}
+
+.box_sh{
+    box-shadow:0 0.2rem 0.4rem -0.1rem #b28400;
+    -moz-box-shadow:0 0.2rem 0.4rem -0.1rem #b28400;/*firefox*/
+    -webkit-box-shadow: 0 0.2rem 0.4rem -0.1rem #b28400;
+}
+
+.box_sh_img{
+    box-shadow:0 0.06rem 0.9rem -0.07rem rgba(0,86,168,.7);
+    -moz-box-shadow:0 0.06rem 0.9rem -0.07rem rgba(0,86,168,.7);/*firefox*/
+    -webkit-box-shadow:0 0.06rem 0.9rem -0.07rem rgba(0,86,168,.7);/*webkit*/
+}

@@ -72,18 +72,40 @@ section{
     color: white;
     line-height: .8rem;
     text-align: center;
-    font-weight: lighter;
+    font-weight: bold;
 
     margin: .35rem auto .20rem auto;
     -webkit-border-radius: .4rem;
     -moz-border-radius: .4rem;
     border-radius: .4rem;
-    box-shadow:0 0.06rem 0.7rem -0.06rem rgba(10,163,255,.8);
-    -moz-box-shadow:0 0.06rem 0.7rem -0.06rem rgba(10,163,255,.8);/*firefox*/
-    -webkit-box-shadow:0 0.06rem 0.7rem -0.06rem rgba(10,163,255,.8);/*webkit*/
+    box-shadow:0 0.2rem 0.7rem -0.18rem rgba(10,163,255,1);
+    -moz-box-shadow:0 0.2rem 0.7rem -0.18rem rgba(10,163,255,1);/*firefox*/
+    -webkit-box-shadow:0 0.2rem 0.7rem -0.18rem rgba(10,163,255,1);/*webkit*/
 }
 .box_sh{
     box-shadow:0 0.06rem 0.9rem -0.02rem rgba(10,163,255,.4);
     -moz-box-shadow:0 0.06rem 0.9rem -0.02rem rgba(10,163,255,.4);/*firefox*/
     -webkit-box-shadow:0 0.06rem 0.9rem -0.07rem rgba(10,163,255,.3);/*webkit*/
+}
+/*弹窗*/
+.mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /*background-color: rgba(0,0,0,.85);*/
+    display: none;
+}
+.mask .wel_box{
+    width: 100%;
+    height:100%;
+}
+.mask .wel_box .layer_box{
+    background-color: rgba(0,0,0,.6);
+    padding:  .4rem;
+    text-align: center;
+    color: white;
+    border-radius: .2rem;
 }
